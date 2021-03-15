@@ -372,7 +372,7 @@ footer{
 .blog-card img:hover{
     transform: none;
 }
-.project-card img{
+.project-card{
     margin: 10px;
     align-items: center;
     background-color: white;
@@ -380,7 +380,7 @@ footer{
     border-radius: 1000px;    
 }
 
-.project-card img:hover{
+.project-card:hover{
     transform: none;
 }
 
