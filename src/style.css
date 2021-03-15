@@ -372,7 +372,17 @@ footer{
 .blog-card img:hover{
     transform: none;
 }
+.project-card img{
+    margin: 10px;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    border-radius: 1000px;    
+}
 
+.project-card img:hover{
+    transform: none;
+}
 
 }
 
