@@ -51,10 +51,6 @@ ul.show{
     display: block;
 }
 
-.hero-area.show{
-    display: none;
-}
-
 .hamburger{
     display: none;
 }
@@ -342,7 +338,7 @@ footer{
         display: none;
         background-color: #26283a;
         margin: 0px;
-        height: 100vh;
+        
     }
     
     nav{
