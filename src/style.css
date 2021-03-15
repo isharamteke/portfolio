@@ -288,6 +288,10 @@ footer{
     .social{
         display: none;
     }
+    .footer{
+        background-color: black;
+    }
+    
     .hero-text{
         margin-left: 5px;
         margin-bottom: 150px;
