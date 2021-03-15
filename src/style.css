@@ -243,7 +243,7 @@ footer{
 .submit-button{
     font-family: 'Poppins', sans-serif;
     background-color: white;
-    border: none;
+    border: transparent;
     padding: 10px;
     margin-left: 40%;
     border-radius: 10px;
