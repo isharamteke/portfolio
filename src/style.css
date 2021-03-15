@@ -99,6 +99,10 @@ p{
     padding-bottom: 5px;
 }
 
+.button:hover{
+    background-color: rgb(226, 225, 225);
+}
+
 
 .button:active{
     background-color: #a9a9a9;
@@ -354,6 +358,22 @@ footer{
         margin-left: 5px;
         margin-bottom: 150px;
     }
+    .button:hover{
+    background-color: coral;
+}
+    .blog-card img{
+    margin: 10px;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    border-radius: 1000px;    
+}
+
+.blog-card img:hover{
+    transform: none;
+}
+
+
 }
 
 @media only screen and (max-width: 427px){
