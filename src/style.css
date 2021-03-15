@@ -341,6 +341,16 @@ footer{
         align-self: flex-end;
         
     }
+    
+    .nav-text:hover{
+        color: white;
+    }
+    
+    
+    .colour-icon:hover{
+        fill: white;
+    }
+    
     ul{
         display: none;
         background-color: #26283a;
