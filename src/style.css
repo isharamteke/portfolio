@@ -375,9 +375,11 @@ footer{
 .project-card{
     margin: 10px;
     align-items: center;
+    width: 300px;
     background-color: white;
-    height: 200px;
-    border-radius: 1000px;    
+    height: 350px;
+    border-radius: 20px;    
+    box-shadow: 3px 3px 10px rgb(167, 167, 167);
 }
 
 .project-card:hover{
