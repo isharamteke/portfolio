@@ -295,6 +295,7 @@ footer{
     border: transparent;
     padding: 10px;
     margin-left: 40%;
+    align-self: center;
     border-radius: 10px;
 }
 
