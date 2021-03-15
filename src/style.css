@@ -234,6 +234,12 @@ footer{
     
 }
 
+.footer-content div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .submit-button{
     font-family: 'Poppins', sans-serif;
     background-color: white;
