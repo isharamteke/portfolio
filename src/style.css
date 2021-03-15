@@ -350,6 +350,10 @@ footer{
     .logo{
         display: none;
     }
+    
+    .hero-area{
+        display: none;
+    }
 
 
 }
