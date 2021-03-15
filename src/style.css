@@ -51,6 +51,10 @@ ul.show{
     display: block;
 }
 
+.hero-area.show{
+    display: none;
+}
+
 .hamburger{
     display: none;
 }
