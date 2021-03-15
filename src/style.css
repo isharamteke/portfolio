@@ -246,6 +246,7 @@ footer{
     border: none;
     padding: 10px;
     margin-left: 40%;
+    border-radius: 10px;
 }
 
 .submit-button:hover{
