@@ -228,8 +228,8 @@ h2{
 }
 
 .art{
-
-    padding-top: 30px;
+    height: 180px;
+    padding-top: 40px;
     
 }
 
@@ -251,7 +251,7 @@ h2{
 
 /*------------------------------------------FOOTER--------------------------------------------------- */
 
-footer{
+/* footer{
     height: 500px;   
     background-color: black;
 }
@@ -319,7 +319,23 @@ footer{
 
 .footer-social div{
     margin-right: 30px;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*------------------------------------------Responsive Media for Gallery and About me section--------------------------------------------------- */
 
@@ -351,6 +367,7 @@ footer{
 }
 
 @media only screen and (max-width: 700px){
+
     .social{
         display: none;
     }    
@@ -361,7 +378,7 @@ footer{
     .button:hover{
     background-color: coral;
 }
-    .blog-card img{
+.blog-card img{
     margin: 10px;
     align-items: center;
     background-color: white;
@@ -388,7 +405,81 @@ footer{
 
 }
 
+@media only screen and (max-width: 641px){
+
+    .project-card{
+        margin: 5px;
+        align-items: center;
+        width: 250px;
+        background-color: white;
+        height: 300px;
+        border-radius: 20px;    
+        box-shadow: 3px 3px 10px rgb(167, 167, 167);
+        transition: 0.5s;
+    }
+    
+    .project-container{
+        margin-top: 50px;    
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    .art{
+        height: 160px;
+        padding-top: 10px;
+        
+    }
+    
+    .art-text{
+        margin-top: 15px;
+        font-weight: 10px;
+        font-size: 23px;
+        font-family: 'Alex Brush', cursive;
+    }
+    
+    .project-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+    .blog-card img{
+        margin: 10px;
+        align-items: center;
+        background-color: white;
+        height: 150px;
+        border-radius: 1000px;    
+    }
+    .blog-container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    
+    }
+    
+    
+    .blog-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    
+    }
+
+
+}
+
 @media only screen and (max-width: 427px){
+    
     .hero-text{
         margin-left: 5px;
         margin-bottom: 150px;
@@ -413,9 +504,7 @@ footer{
         font-weight: 290px;
         padding-bottom: 4px;
     }
-
 }
-
 @media only screen and (max-width: 346px){
     .hero-text{
         margin-left: 0px;
@@ -426,9 +515,15 @@ footer{
 
 
 @media only screen and (max-width: 1000px){
+    .photo{
+        height: 230px;
+        border-radius: 150px;
+    }
+
     .hamburger{
         display: block;
         border: 0px;
+        padding-right: 20px;
         background-color: transparent;
         color: white;
         font-size: 30px;
