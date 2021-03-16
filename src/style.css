@@ -309,7 +309,7 @@ h2{
 }
 
 .footer-name{
-    font-size: larger;
+    font-size: 27px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -592,6 +592,7 @@ h2{
     }
 
 
+
 }
 
 @media only screen and (max-width: 427px){
@@ -604,11 +605,11 @@ h2{
         font-size: 50px;
         margin: 0px;
     }
-    p{
-        margin-left: 0;
-        margin-bottom: 15px;
-        font-size: 20px;
-        font-weight: 300px;
+    h2{
+        font-size: 45px;
+    }
+    .information p{
+        font-size: 25px;
     }
     .button{
         width: 166px;
@@ -631,6 +632,16 @@ h2{
 
 
 @media only screen and (max-width: 1000px){
+    .information{
+        align-items: center;
+    }
+    .information h2{
+        text-align: center;
+    }
+    .information p{
+        text-align: center;
+    }
+
     .photo{
         height: 230px;
         border-radius: 150px;
