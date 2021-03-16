@@ -301,6 +301,44 @@ h2{
 
 /*------------------------------------------FOOTER--------------------------------------------------- */
 
+.footer-container{
+    background-color: rgb(227, 225, 213);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-name{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-text{
+    align-items: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.icon-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.icon-footer div{
+    margin: 5px;
+}
+
+
+
+
+
+
 /* footer{
     height: 500px;   
     background-color: black;
